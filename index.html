@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#120e2b">
+<title>Mr.Tom — Mystery Fun Zone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="stars" aria-hidden="true"></div>
+<header class="top">
+  <a class="brand" href="#" aria-label="Mr Tom home"><span class="brand-icon">✦</span> Mr.<b>Tom</b></a>
+  <span class="top-tag">THE MYSTERY FUN ZONE</span>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="eyebrow"><span class="pulse"></span> YOU FOUND A SECRET CORNER</div>
+    <h1>Something <span>FUNNY</span><br>is hiding here...</h1>
+    <p class="sub">A tiny mystery. A silly surprise. One little button.</p>
+
+    <div class="cartoon-stage" aria-label="Animated cartoon cat chasing a tiny mouse">
+      <div class="moon"></div>
+      <div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+      <div class="cheese">🧀</div>
+      <div class="cat">
+        <div class="cat-ear left"></div><div class="cat-ear right"></div>
+        <div class="cat-face"><div class="cat-eye eye-left"></div><div class="cat-eye eye-right"></div><div class="cat-nose"></div><div class="whiskers"></div><div class="cat-mouth"></div></div>
+        <div class="cat-body"></div><div class="cat-tail"></div><div class="cat-leg leg-one"></div><div class="cat-leg leg-two"></div>
+      </div>
+      <div class="mouse">
+        <div class="mouse-ear ear-one"></div><div class="mouse-ear ear-two"></div>
+        <div class="mouse-face"><span class="mouse-eye"></span><span class="mouse-nose"></span></div>
+        <div class="mouse-body"></div><div class="mouse-tail"></div>
+      </div>
+      <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div><div class="spark spark-three">✦</div>
+      <div class="ground"></div>
+    </div>
+
+    <div class="button-wrap">
+      <button id="allowBtn" class="allow-btn"><span>Allow</span><span class="arrow">↗</span></button>
+      <p class="tiny">Tap to unlock the surprise ✨</p>
+    </div>
+    <div id="surprise" class="surprise hidden" role="status" aria-live="polite">
+      <div class="surprise-emoji">😹 🐭 🎉</div>
+      <h2>GOTCHA! Just a silly cartoon chase!</h2>
+      <p>No camera, no photos, no tracking — just fun animation.</p>
+      <button id="againBtn" class="again">One more time ↻</button>
+    </div>
+  </section>
+</main>
+<footer>Made for laughs · Mr.Tom Mystery Fun Zone</footer>
+<script src="script.js"></script>
+</body>
+</html>
